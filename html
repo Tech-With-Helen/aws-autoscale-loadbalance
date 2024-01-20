@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #3498db, #2980b9);
+            color: #fff;
+        }
+
+        header {
+            background: #2c3e50;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff; /* White background for both pages */
+            color: #f39c12; /* Orange text color */
+        }
+
+        /* Set navy blue color for specific sentences */
+        #instanceContent, #loadBalancerContent {
+            color: #001f3f; /* Navy blue text color */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    EC2 Instance
+</header>
+
+<section>
+    <h1>Welcome to my EC2 Instance Page</h1>
+    <p id="instanceContent">This is a test application to check how Load balancing works.</p>
+</section>
+
+<header>
+    Test Load Balancer - Routed to Server 1
+</header>
+
+<section>
+    <h1>Welcome to the Load Balancer Test Page</h1>
+    <p id="loadBalancerContent">Load Balancer just routed to Server 1.</p>
+</section>
+
+</body>
+</html>
